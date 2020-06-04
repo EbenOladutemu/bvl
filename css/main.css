@@ -76,7 +76,7 @@ body > section,
 .sec-title {}
 
 .sec-title h2 {
-  color: #0eb493;
+  color: #fea502;
   font-size: 28px;
   font-weight: 800;
   text-transform: uppercase;
@@ -302,9 +302,9 @@ top: -8px;
 }
 
 .service-icon {
-  border: 1px solid #0eb493;
+  border: 1px solid #fea502;
   border-radius: 50%;
-  color: #0eb493;
+  color: #fea502;
   float: left;
   padding: 10px 13px;
 }
@@ -349,7 +349,7 @@ top: -8px;
 
 .work-filter ul li a:hover,
 .work-filter ul li a.active {
-  background-color: #0eb493;
+  background-color: #fea502;
   border-radius: 6px;
   color: #fff;
   padding: 5px 17px;
@@ -476,7 +476,7 @@ top: -8px;
 }
 
 .team-member:hover h4 {
-  color: #0eb493;
+  color: #fea502;
 }
 
 .team-member .social-links {
@@ -646,13 +646,13 @@ label.error {
 
 
 .footer {
-  background-color: #1ea78d;
+  background-color: #020100;
   border-top: 5px solid #062033;
   color: #fff;
 }
 
 .footer a:hover {
-  color: #062033;
+  color: #fea502;
 }
 
 .footer h6 {
