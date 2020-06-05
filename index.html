@@ -5,20 +5,22 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Siimple - Bootstrap Landing Page Template</title>
+  <title>Home | Bamonisa Ventures Limited</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/bvl-logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
 	<link href="assets/css/style.css" rel="stylesheet">
@@ -35,13 +37,13 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container-fluid">
+  <header id="header" class="overlayheader">
+    <div class="container-fluid overlay-header">
 
       <div class="logo float-left">
-        <h1 class="text-light"><a href="index.html"><span>Siimple</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <a href="index.html"><img src="assets/img/bvl-logo.webp" alt="" class="img-fluid"></a>
+        <!-- Uncomment below if you prefer to use text -->
+        <!-- <h1 class="text-light"><a href="index.html"><span>Siimple</span></a></h1> -->
       </div>
 
       <button type="button" class="nav-toggle"><i class="bx bx-menu"></i></button>
@@ -50,7 +52,7 @@
           <li class="active"><a href="#header">Home <i class="la la-angle-down"></i></a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#why-us">Why Us</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
+          <!-- <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="drop-down"><a href="#">Drop Down 2</a>
@@ -66,7 +68,7 @@
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -77,10 +79,11 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-      <h1>Welcome to Bamonisa Ventures Limited</h1>
-      <!-- <h2>Please, fill out the for below to be notified for the latest updates!</h2> -->
+      <h1 class="animated heartBeat welcome">Welcome to</h1>
+			<h2 class="animated flipInX title">Bamonisa Ventures Limited</h2>
+			<span class="tagline">Integrity, Speed, Discipline</span>
 
-      <form action="forms/notify.php" method="post" role="form" class="php-email-form">
+      <!-- <form action="forms/notify.php" method="post" role="form" class="php-email-form">
         <div class="row no-gutters">
           <div class="col-md-6 form-group pr-md-1">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -98,7 +101,7 @@
           <div class="sent-message">Your notification request was sent. Thank you!</div>
         </div>
         <div class="text-center"><button type="submit">Notify me!</button></div>
-      </form>
+      </form> -->
     </div>
   </section><!-- #hero -->
 
@@ -110,24 +113,18 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <img src="assets/img/about-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/bvl-logo.webp" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3 class="text-bold">About Us</h3>
             <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Founded in 1997 Incorporated 2017 as a security and allied services company, retaining legacy services 
             </p>
             <ul>
               <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
               <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
               <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
             </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
           </div>
         </div>
 
@@ -137,7 +134,7 @@
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us section-bg">
       <div class="container">
-
+				<h2 class="text-center text-bold mb-4" style="font-size: 40px;">Our Services</h2>
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="card">
@@ -146,7 +143,7 @@
                 <i class="bx bx-book-reader"></i>
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="">Our Mission</a></h5>
+                <h5 class="card-title"><a href="">Integrity</a></h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
               </div>
             </div>
@@ -158,7 +155,7 @@
                 <i class="bx bx-calendar-edit"></i>
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="">Our Plan</a></h5>
+                <h5 class="card-title"><a href="">Speed</a></h5>
                 <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
               </div>
             </div>
@@ -170,7 +167,7 @@
                 <i class="bx bx-landscape"></i>
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="">Our Vision</a></h5>
+                <h5 class="card-title"><a href="">Discipline</a></h5>
                 <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet. </p>
               </div>
             </div>
@@ -251,7 +248,7 @@
 		
 		<!-- ======= Map Section ======= -->
     <section class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1191%3A0x49f75d3281df052a!2s150%20Park%20Row%2C%20New%20York%2C%20NY%2010007%2C%20USA!5e0!3m2!1sen!2sbg!4v1579767901424!5m2!1sen!2sbg" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63037.75448566025!2d7.429338923947233!3d9.07654773284145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0ae69721a50d%3A0xf1b5fd4b3e4f9212!2s7%20Kikuyu%20Close%2C%20Wuse%20900288%2C%20Abuja%2C%20Nigeria!5e0!3m2!1sen!2sbg!4v1591317371209!5m2!1sen!2sbg" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </section><!-- End Map Section -->
 
     <!-- ======= Contact Us Section ======= -->
@@ -268,17 +265,17 @@
             <div class="info">
               <div class="address">
                 <i class="bx bx-map"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
+                <p>7, Kikuyu Close<br>Wuse 2, Abuja</p>
               </div>
 
               <div class="email">
                 <i class="bx bx-envelope"></i>
-                <p>info@example.com</p>
+                <p><a href="mailto:info@bvlsecurity.com">info@bvlsecurity.com</a></p>
               </div>
 
               <div class="phone">
                 <i class="bx bx-phone-call"></i>
-                <p>+1 5589 55488 55s</p>
+                <p>+234 803000000</p>
               </div>
             </div>
 
@@ -329,14 +326,10 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Siimple</span></strong>. All Rights Reserved
+        &copy; Copyright 2020 <strong><span>BVL Security</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-landing-page/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Cratfed by <a href="https://eben.com.ng/" title="Eben Web Krafts">Eben</a>
       </div>
     </div>
   </footer><!-- End #footer -->

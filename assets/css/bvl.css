@@ -1,3 +1,30 @@
+.logo{
+  position: fixed;
+}
+
+#header{
+  /* background-color: rgba(255, 255, 255, .4); */
+}
+
+.welcome{
+  font-family: 'Piedra', cursive;
+}
+
+.overlay-header:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:50em;
+  display: block;
+  z-index:0;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.text-bold{
+  font-weight: bold!important;
+}
 .map {
   padding: 0;
   margin-bottom: -10px;
@@ -6,4 +33,20 @@
 .map iframe {
   width: 100%;
   height: 380px;
+}
+
+.line{
+  color: #fea502;
+  content: "___";
+  position: relative;
+  top: -8px;
+}
+
+.tagline{
+  color: #fff;
+  font-size: 25px;
+}
+
+button{
+  border-radius: 5px;
 }
