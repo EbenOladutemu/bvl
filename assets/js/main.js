@@ -10,10 +10,14 @@
   // Toggle nav menu
   $(document).on('click', '.nav-toggle', function(e) {
     $('.nav-menu').toggleClass('nav-menu-active');
-    $('.nav-toggle').toggleClass('nav-toggle-active');
+    $('.nav-toggle').toggleClass('nav-toggle-active overlay-body');
     $('.nav-toggle i').toggleClass('bx-x bx-menu');
-
+    // $(this).closest('body').addClass('overlay-body');
   });
+
+  $(document).on('click', '.body', (e)=>{
+    console.log('Close');
+  })
 
   // Toogle nav menu drop-down items
   $(document).on('click', '.nav-menu .drop-down > a', function(e) {

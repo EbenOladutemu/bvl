@@ -10,6 +10,18 @@
   font-family: 'Piedra', cursive;
 }
 
+.overlay-body:before{
+  position: fixed;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:50em;
+  display: block;
+  z-index:0;
+  background-color: rgba(0,0,0,0.4);
+}
+
 .overlay-header:before{
   position: absolute;
   content:" ";
