@@ -280,9 +280,9 @@
             </div>
 
             <div class="social-links">
-              <a href="https://twitter.com/SIDEyez" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="https://www.facebook.com/sideyez.sideyez.1" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/sideyez1" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://twitter.com/SIDEyez" target="_blank" rel=”noreferrer noopener” class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.facebook.com/sideyez.sideyez.1" target="_blank" rel=”noreferrer noopener” class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/sideyez1" target="_blank" rel=”noreferrer noopener” class="instagram"><i class="bx bxl-instagram"></i></a>
             </div>
 
           </div>
@@ -325,7 +325,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright 2020 <strong><span>BVL Security</span></strong>. All Rights Reserved
+        &copy; Copyright <span id="year"></span> <strong><span>BVL Security</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         Cratfed by <a href="https://eben.com.ng/" target="_blank" rel=”noreferrer noopener” title="Eben Web Krafts">Eben</a>
@@ -343,7 +343,9 @@
   <!-- Template Main JS File -->
 	<script src="assets/js/main.js"></script>
 	<script>
-		new WOW().init();
+    new WOW().init();
+    var year = document.getElementById('year');
+    year.innerText = new Date().getFullYear();
 	</script>
 
 </body>
