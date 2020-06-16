@@ -15,10 +15,6 @@
     // $(this).closest('body').addClass('overlay-body');
   });
 
-  $(document).on('click', '.body', (e)=>{
-    console.log('Close');
-  })
-
   // Toogle nav menu drop-down items
   $(document).on('click', '.nav-menu .drop-down > a', function(e) {
     e.preventDefault();
